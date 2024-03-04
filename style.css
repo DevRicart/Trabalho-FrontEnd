@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-#home {
-  position: fixed;
+.navbar {
+  position: fixed !important;
   z-index: 999;
   width: 100vw;
-  height: 8vh;
+  height: 8vh !important;
 }
 
 .espaco {
@@ -33,6 +33,10 @@ header nav.navbar {
 
 .navbar-toggler {
   background-color: #f9f3e7 !important;
+}
+
+.navbar-nav {
+  margin-right: 40px;
 }
 
 .banner-img {
@@ -258,7 +262,7 @@ a {
   }
 
   .social-icon {
-    width: 100px;
+    width: 60px;
   }
 
   .superior p {
